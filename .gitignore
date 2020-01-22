@@ -1,6 +1,16 @@
 # Virtual Environment
 venv/
 
+# Editor Configurations
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+
+# Pip
+src/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 *.ipynb
@@ -11,3 +21,9 @@ venv/
 
 # Comma-Separated Values (CSV) Reports
 *.csv
+
+# Excluded sites list
+tests/.excluded_sites
+
+# MacOS Folder Metadata File
+.DS_Store
